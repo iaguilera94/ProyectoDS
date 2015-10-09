@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Proyecto_1_DS.Binaria" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAIAAAAgAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Binaria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.Cifrado" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Cifrado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.CodigoTelefonico" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAIAAAAAAAAAAAAAAACAAAAAAAAAAAABA=</HashCode>
+      <FileName>CodigoTelefonico.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.Controlador" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAIACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controlador.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IFabricaCifrado" />
+      <Property Name="IFabricaDocumento" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Proyecto_1_DS.Documento" Collapsed="true">
+    <Position X="10.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Documento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.FabricaBinaria" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FabricaBinaria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.FabricaCifrado" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FabricaCifrado.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Proyecto_1_DS.FabricaCodTeleefonico" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FabricaCodTeleefonico.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.FabricaDocumento" Collapsed="true">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FabricaDocumento.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Proyecto_1_DS.FabricaLetraALetra" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FabricaLetraALetra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.FabricaPalabraClave" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FabricaPalabraClave.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.FabricaPDF" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FabricaPDF.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.FabricaTXT" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FabricaTXT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.FabricaVigenere" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FabricaVigenere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.FabricaXML" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FabricaXML.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.PalabraClave" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgIAEAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>PalabraClave.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.PDF" Collapsed="true">
+    <Position X="10.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PDF.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.Program" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.SimpleControladorFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>SimpleControladorFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Proyecto_1_DS.Transportador" Collapsed="true">
+    <Position X="20" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAABAAA=</HashCode>
+      <FileName>Transportador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.Transposicion" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAgABg=</HashCode>
+      <FileName>Transposicion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.TXT" Collapsed="true">
+    <Position X="8.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TXT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.Vigenere" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAACBA=</HashCode>
+      <FileName>Vigenere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.VistaConsola" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <AssociationLine Name="ISimpleControladorFactory" Type="Proyecto_1_DS.ISimpleControladorFactory">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.966" Y="0.265" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>VistaConsola.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ISimpleControladorFactory" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Proyecto_1_DS.VistaGUI" Collapsed="true">
+    <Position X="16.75" Y="2.25" Width="1.5" />
+    <AssociationLine Name="ISimpleControladorFactory" Type="Proyecto_1_DS.ISimpleControladorFactory" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16.75" Y="2.562" />
+        <Point X="14.625" Y="2.562" />
+        <Point X="14.625" Y="2.562" />
+        <Point X="14" Y="2.562" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.444" Y="-0.095" Height="0.182" Width="1.784" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAABAAACAAAACQAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>VistaGUI.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ISimpleControladorFactory" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Proyecto_1_DS.XML" Collapsed="true">
+    <Position X="13" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XML.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.Properties.Resources" Collapsed="true">
+    <Position X="19.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_1_DS.Properties.Settings" Collapsed="true">
+    <Position X="19.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Proyecto_1_DS.IControlador" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IControlador.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Proyecto_1_DS.IFabricaCifrado" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IFabricaCifrado.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Proyecto_1_DS.IFabricaDocumento" Collapsed="true">
+    <Position X="12.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IFabricaDocumento.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Proyecto_1_DS.ISimpleControladorFactory" Collapsed="true">
+    <Position X="12.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>ISimpleControladorFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
